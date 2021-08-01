@@ -1,21 +1,8 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import pandas as pd
 import pickle
 import numpy as np
 
-
-# In[ ]:
-
-
 FILE_PATH = '.'
-
-
-# In[ ]:
 
 
 def similarity_interaction(df_tmp):
@@ -53,9 +40,6 @@ def similarity_interaction(df_tmp):
     return(df_tmp)
 
 
-# In[ ]:
-
-
 # load the mapping (the dictionary from ChEMBL to Gene ID)
 with open(f'{FILE_PATH}/ChEMBL2Entrez.pkl', 'rb') as f:
     ChEMBL2Entrez = pickle.load(f)
@@ -66,14 +50,9 @@ Entrez2ChEMBL = dict((y,x) for x,y in ChEMBL2Entrez.items())
 
 # #### 1- DTI
 
-# In[ ]:
-
 
 DTI = pd.read_csv(f'{FILE_PATH}/DTI_known_ChEMBL.csv')
 DTI.head()
-
-
-# In[ ]:
 
 
 # find max durg id (protein IDs start after it)
@@ -94,15 +73,8 @@ DTI_newID.head()
 
 # #### 2- PPS
 
-# In[ ]:
-
-
 PPS_seq = pd.read_csv(f'{FILE_PATH}/PPS(seq)_known_ChEMBLid_P556.csv', index_col=0)
 PPS_seq
-
-
-# In[ ]:
-
 
 # Creating Edgelist for protein-protein similarity
 ChEMBL_id = pd.read_csv(f'{FILE_PATH}/uniprot_Seq.csv')
@@ -116,9 +88,6 @@ PPS_seq = PPS_seq.rename_axis(None)
 #PPS_seq_edglist = similarity_interaction(PPS_seq)
 #PPS_seq_edglist.to_csv(f'{FILE_PATH}/PPS_seq_edglist_df.csv')
 #PPS_seq_edglist.head()
-
-
-# In[ ]:
 
 
 # change protein IDs to numeric IDs

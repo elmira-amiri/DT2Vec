@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 # # DT2Vec on Golden-standard dataset
 # - GSD is available at:  http://web.kuicr.kyoto-u.ac.jp/supp/yoshi/drugtarget/  
 

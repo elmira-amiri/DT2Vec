@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 # # Drug-drug similarity
 # - https://www.nature.com/articles/nprot.2014.151
 

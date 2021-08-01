@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 # # Seleceting DTI from ChEMBL
 # - CheMBL dataset: https://www.ebi.ac.uk/chembl/g/#browse/activities
 
