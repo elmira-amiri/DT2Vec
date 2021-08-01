@@ -1,0 +1,7 @@
+                            Package    Version
+protr                         protr      1.6-2
+dplyr                         dplyr      1.0.4
+GOSemSim                   GOSemSim     2.16.1
+Biostrings               Biostrings     2.58.0
+foreach                     foreach      1.5.1
+doParallel               doParallel     1.0.16
