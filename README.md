@@ -1,4 +1,4 @@
-## DT2Vec: a computational approach to predict drug-target interactions using  machine learning
+## Novel Drug-Target Interactions via Link Prediction and Network Embedding
 ##### E. Amiri Souri<sup>1</sup>, R. Laddach<sup>1,2</sup>, S. N. Karagiannis<sup>2,3</sup>,L.G. Papageorgiou<sup>4</sup>,  S. Tsoka<sup>1</sup>
 
 <sup> 1 Department of Informatics, Faculty of Natural and Mathematical Sciences, King's College London, Bush House, London WC2B 4BG, United Kingdom <br />
